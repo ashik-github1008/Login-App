@@ -1,0 +1,38 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  border-radius: 12px;
+  padding: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 52px;
+  color: #f8fafc;
+}
+
+.btn {
+  color: #303150;
+  border-radius: 10px;
+  padding-left: 58px;
+  padding-right: 58px;
+  padding: 24px;
+  width: 50%;
+  border: none;
+  font-size: 24px;
+}
